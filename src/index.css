@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+*,::after,::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --Soft-red: hsl(7, 99%, 70%);   
+--Yellow: hsl(51, 100%, 49%);   
+--Dark-desaturated-cyan: hsl(167, 40%, 24%);    
+--Dark-blue: hsl(198, 62%, 26%);    
+--Dark-moderate-cyan: hsl(168, 34%, 41%);
+--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  max-width: 144rem;
+font-family: 'Barlow', sans-serif;
+margin: 0 auto;
+/* font-family: 'Fraunces', serif; */
+}
+.contents{
+  width: 100%;
+}
+
+header{
+  background: #3ebfff;
+  padding: 2rem 2rem 0rem 2rem;
+}
+.logo-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  max-width: 100%;
+  display: block;
+}
+.navigation ul{
+  display: flex;
+  gap :2rem;
+  list-style: none;
+  align-items: center;
+}
+.navigation ul a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.3rem;
+}
+
+.hero-img img{
+  max-width: 80%;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  border-radius: 3rem;
+  padding: 0.6rem 1.5rem;
+}
+.navigation .btn.btn-contact a{
+  color:#000;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  font-size: 1.1rem;
+}
+.hero{
+  position: relative;
+}
+.lead{
+  display: flex;
+  justify-content: center;
+}
+.hero h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 4rem;
+  letter-spacing: 0.7rem;
+  position: absolute;
+  top: 10%;
+  z-index: 5;
+}
+.hero-img{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.orange{
+  display: flex;
+  justify-content: center;
+}
+
+.arrow{
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top:45%;
+  left: 50%;
+}
+
+/***Transform****/
+
+.transform-wrapper{
+  display: flex;
+}
+.transform-text{
+  padding: 3rem 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.transform-wrapper h2{
+  font-size: 3rem;
+font-family: 'Fraunces', serif;
+padding-bottom: 3rem;
+}
+.transform-text h2{
+  display: flex;
+  flex-direction: column;
+}
+.transform-image img{
+  display: block;
+}
+.transform-text p{
+  color: var(--Dark-grayish-blue);
+  font-size: 1.4rem;
+  line-height: 2.25rem;
+}
+.underline{
+  text-transform: uppercase;
+  display: inline;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Fraunces', serif;
+  padding-top: 3rem;
+}
+.yellow{
+  border-bottom: 6px solid yellow;
+}
+.orange{
+  border-bottom: 6px solid orange;
+}
+
+/***Graphic Photo****/
+
+.graphic-photo{
+  display: flex;
+}
+.graphic-photo img{
+  display: block;
+}
+.graphic, .photo{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.graphic-text,.photo-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10vw;
+  bottom: 0rem;
+}
+.graphic-photo h3{
+  font-size: 2.5rem;
+  font-family: 'Fraunces', serif;
+  padding-bottom: 3rem;
+}
+
+.graphic-photo p{
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+  line-height: 1.9rem;
+
+}
+.graphic-text h3, p {
+  color: var(--Dark-desaturated-cyan);
+}
+.photo-text h3, p {
+  color: var(--Very-dark-desaturated-blue);
+}
+
+/***Testimonials****/
+
+.testimonials{
+  padding: 5rem 5%;
+}
+.testimonials h3{
+  text-transform: uppercase;
+  color: silver;
+  font-family: 'Fraunces', serif;
+  letter-spacing: 0.6rem;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 9rem 0rem 7rem 0rem;
+}
+.clients, .client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients{
+  gap: 3rem;
+}
+.client{
+  flex-direction: column;
+}
+.client img{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.client p{
+  font-size: 1.4rem;
+  color: var(--Very-dark-grayish-blue);
+  padding: 5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.client h4{
+  font-size: 1.4rem;
+  font-family: 'Fraunces', serif;
+}
+small{
+  font-size: 1.1rem;
+  color: silver;
+  padding-top: 1rem;
+}
+
+/***collage****/
+
+.collage{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
+}
+.collage img{
+  width: 100%;
+}
