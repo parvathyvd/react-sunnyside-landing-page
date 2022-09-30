@@ -74,12 +74,14 @@ header{
 .btn-contact{
   transform: all 0.2s;
 }
-.btn-contact:hover, .btn-contact:active{
+.btn.btn-contact:hover, .btn-contact:active{
   background: rgba(255, 255, 255, 0.346);
-  color: #fff;
 }
-.btn-contact:hover a, .btn-contact:active a{
+.btn.btn-contact:hover a, .btn-contact:active a{
 text-transform: capitalize;
+color: #fff;
+padding: 0.6rem 0.7rem;
+
 }
 .btn.btn-contact a{
   color:#000;

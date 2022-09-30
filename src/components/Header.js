@@ -28,7 +28,7 @@ const Header = () => {
               <a href="">Projects</a>
             </li>
             <button className="btn btn-contact">
-              <a href="">Contact</a>
+              <a href="#">Contact</a>
             </button>
           </ul>
         </nav>
@@ -47,7 +47,7 @@ const Header = () => {
                   <a href="">Projects</a>
                 </li>
                 <button className="btn btn-mb-contact">
-                  <a href="">Contact</a>
+                  <a href="#">Contact</a>
                 </button>
               </ul>
             </nav>
