@@ -1,4 +1,5 @@
 import Collage from "./components/Collage";
+import Footer from "./components/Footer";
 import GraphicPhoto from "./components/GraphicPhoto";
 import Header from "./components/Header";
 import Standout from "./components/Standout";
@@ -14,6 +15,7 @@ function App() {
       <GraphicPhoto />
       <Testimonials />
       <Collage />
+      <Footer />
     </div>
   );
 }

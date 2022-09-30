@@ -19,7 +19,7 @@ const Transform = () => {
         </a>
       </div>
       <div className="transform-image">
-        <img src={egg} alt="Egg" />
+        <img className="egg" src={egg} alt="Egg" />
       </div>
     </div>
   );
