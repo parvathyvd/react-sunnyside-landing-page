@@ -61,7 +61,7 @@ header{
 }
 
 .hero-img img{
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .btn{
@@ -102,7 +102,7 @@ text-transform: capitalize;
   font-size: 4rem;
   letter-spacing: 0.7rem;
   position: absolute;
-  top: 10%;
+  top: 20%;
   z-index: 5;
 }
 .hero-img{
@@ -342,7 +342,6 @@ footer{
   display: none;
   opacity: 0;
   height: 0;
-  transform: all 0.2s ease;
 }
 .hero-mb-orange{
   display: none;
@@ -366,7 +365,6 @@ footer{
     position: relative;
     opacity: 1;
     height: 100%;
-    transform: all 0.2s ease;
   }
   nav.navigation{
     display: none;
