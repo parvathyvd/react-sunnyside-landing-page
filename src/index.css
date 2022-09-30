@@ -339,27 +339,13 @@ footer{
   text-decoration: none;
 }
 .mobile-nav{
+  display: none;
   opacity: 0;
   height: 0;
-  animation: moveDown 8s ease-in;
+  transform: all 0.2s ease;
 }
 .hero-mb-orange{
   display: none;
-}
-
-@keyframes moveDown {
-  0%{
-    height: 0;
-    opacity: 0;
-  }
-  50%{
-    height: 50%;
-    opacity: 0.5;
-  }
-  100%{
-    height: 100%;
-    opacity: 1;
-  }
 }
 
 @media(max-width:799px) {
